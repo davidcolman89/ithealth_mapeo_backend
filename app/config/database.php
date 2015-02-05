@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'pgsql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -64,11 +64,11 @@ return array(
 		),
 
 		'pgsql' => array(
-			'driver'   => 'pgsql',
+			'driver'   => 'postgis',
 			'host'     => 'localhost',
-			'database' => 'forge',
-			'username' => 'forge',
-			'password' => '',
+			'database' => 'gis',
+			'username' => 'david',
+			'password' => 'admin',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',

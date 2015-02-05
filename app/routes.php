@@ -13,5 +13,7 @@
 
 Route::get('/', function()
 {
+	return DB::table('geometry_columns')->get();
+
 	return View::make('hello');
 });

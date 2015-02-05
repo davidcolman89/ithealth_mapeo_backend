@@ -4,8 +4,13 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"type": "project",
+    "require-dev": {
+        "way/generators": "~2.0",
+        "fzaninotto/faker": "v1.3.0"
+    },
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.*",
+        "lamb/laravel-postgis-database": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
